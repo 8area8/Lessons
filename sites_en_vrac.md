@@ -3,9 +3,6 @@
 [python generator tutorial](https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/)
 -très bon tutorial expliquant les générateurs (english)
 
-[regex generator](https://regexr.com/3oj0h)
--juste parfait pour générer les regex facilement et clairement. *coup de coeur*
-
 [uml in color](faut trouver le site)
 -Une **méthode** pour utiliser UML
 

@@ -15,5 +15,4 @@ Configuration
 
 ##1 THEMES AND SHEMES:
 
-- **material theme**: the best theme (blue)
 - **ayu color sheme**: good orange sheme/theme (ayu-mirage the best)
