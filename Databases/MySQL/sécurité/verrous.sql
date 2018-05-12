@@ -17,11 +17,11 @@
 
 LOCK TABLES nom_table [AS alias_table] [READ | WRITE] [, ...]; -- verrou d'une table.
 
--- En utilisantREAD, un verrou de lecture sera posé ;
+-- En utilisant READ, un verrou de lecture sera posé ;
 -- c'est-à-dire que les autres sessions pourront toujours lire les données des tables verrouillées,
 -- mais ne pourront plus les modifier.
 
--- En utilisantWRITE, un verrou d'écriture sera posé.
+-- En utilisant WRITE, un verrou d'écriture sera posé.
 -- Les autres sessions ne pourront plus ni lire ni modifier les données des tables verrouillées.
 
 
