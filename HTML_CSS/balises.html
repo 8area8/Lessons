@@ -1,0 +1,154 @@
+<balise attribut="valeur">
+	texte ici.
+</balise>
+
+
+- STRUCTURE DE BASE D UNE PAGE HTML5
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Titre</title>
+    </head>
+
+    <body>
+    
+    </body>
+</html>
+
+
+<!DOCTYPE html> : spécifie que c'est du HTML.
+<html></html> : balise principale du code, englobe tout le contenu de la page.
+<head></head> : donne les informations générales sur la page (comme le titre). Elles ne sont pas affiché sur la page.
+<body></body> : partie principale de la page. Tout ce qui y est écrit sera affiché à l'écran.
+<meta charset="utf-8" /> : encodage de la page.
+
+
+
+- BALISES SIMPLES
+
+
+<title></title> : titre de la page: apparait dans l'onglet, et dans le moteur de recherche.
+<!-- Ceci est un commentaire -->
+<p>Ceci est un paragraphe</p>
+<br /> <!-- Cette balise au sein d'un paragraphe fait sauter une ligne. On peut utiliser une autre paragraphe, aussi. -->
+
+
+
+- LES NIVEAUX DE TITRES
+
+
+<h1> </h1>
+...
+<h6> </h6>
+
+
+
+- LES NIVEAUX D'IMPORTANCE
+
+
+<em></em> - important (souvent italique)
+<strong></strong> - très important (souvent gras)
+<mark></mark> - surlignage par défaut.
+
+
+
+- LES LISTES
+
+
+<ul>
+    <li>Fraises</li>
+    <li>Framboises</li>
+    <li>Cerises</li>
+</ul>
+- Liste non ordonnée.
+
+<ol>
+    <li>Je me lève.</li>
+    <li>Je mange et je bois.</li>
+    <li>Je retourne me coucher.</li>
+</ol>
+- Liste ordonnée.
+
+
+
+- LES LIENS
+
+
+<a href="https://openclassrooms.com">OpenClassrooms</a>
+
+<p>Bonjour. Vous souhaitez visiter <a href="https://openclassrooms.com">OpenClassrooms</a> ?<br />
+C'est un bon site ;o)</p>
+
+
+<p>Bonjour. Souhaitez-vous consulter <a href="page2.html">la page 2</a> ?</p>
+- Liens vers les pages de notre site, situés dans le même dossier.
+
+<a href="contenu/page2.html"></a> - sous dossier
+<a href="../page2.html"></a> - dossier parent
+
+
+
+- LES LIENS VERS UNE ANCRE
+
+
+<h2 id="mon_ancre">Titre</h2> - crée une ancre dans une balise.
+<a href="#mon_ancre">Aller vers l'ancre</a> - va vers l'ancre.
+
+
+- Autre page + ancre:
+<p>
+    Rendez-vous quelque part sur une autre page :<br />
+    <a href="ancres.html#cuisine">La cuisine</a><br />
+    <a href="ancres.html#rollers">Les rollers</a><br />
+    <a href="ancres.html#arc">Le tir à l'arc</a><br />
+</p>
+
+
+
+- LIENS: ASTUCES
+
+
+<p>Bonjour. Souhaitez-vous visiter <a href="https://openclassrooms.com" title="Vous ne le regretterez pas !">OpenClassrooms</a> ?</p>
+- affiche une infobulle.
+
+<p>Bonjour. Souhaitez-vous visiter <a href="https://openclassrooms.com" title="Vous ne le regretterez pas !" target="_blank">OpenClassrooms</a> ?</p>
+- force l'ouverture d'une autre fenêtre.
+
+<p><a href="mailto:votrenom@bidule.com">Envoyez-moi un e-mail !</a></p>
+- envoit vers une email.
+
+<p><a href="monfichier.zip">Télécharger le fichier</a></p>
+- télécharger un fichier.
+
+
+
+- LES IMAGES
+
+
+<p>
+    Voici une photo que j'ai prise lors de mes dernières vacances à la montagne :<br />
+    <img src="images/montagne.jpg" alt="Photo de montagne" title="C'est beau les Alpes quand même !" />
+</p>
+
+
+- créer une miniature cliquable pour l'agrandire: il faut les 2 tailles d'image dans le dossier source.
+<p>
+    Vous souhaitez voir l'image dans sa taille d'origine ? Cliquez dessus !<br />
+    <a href="img/montagne.jpg"><img src="img/montagne_mini.jpg" alt="Photo de montagne" title="Cliquez pour agrandir" /></a>
+</p>
+
+
+
+- CREER UNE FIGURE
+
+
+<p>Connaissez-vous le logiciel Bloc-Notes ? On peut faire des sites web avec !</p>
+
+<figure>
+    <img src="images/blocnotes.png" alt="Bloc-Notes" />
+    <figcaption>Le logiciel Bloc-Notes</figcaption>
+</figure>
+
+- les images ne sont plus obligés d'être dans un paragraphe, et elle peuvent avoir un petit texte en dessous.

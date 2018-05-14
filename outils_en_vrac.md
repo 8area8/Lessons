@@ -54,3 +54,7 @@ Organisation:
 ##Méthodes Agiles
 
 - *Trello*: Interface gratuite et simple pour communiquer avec une équipe.
+
+##HTML
+
+- *Can I use* (https://caniuse.com/): gratuit, permet de tester les navigateurs selon les fonctionnalités HTML.

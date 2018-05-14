@@ -10,19 +10,19 @@ Je compte finir le chapître actuel et commencer le suivant. :)
 
 
 
-###Module x
+###Module Programmation
 **Objectifs**:
 - de 13h à 17H30, pause à 15H00. Aller jusqu'à l'activité, tenter de la finir!
 
 **compte rendu**:
-- 
+- L'activité est vraiment très dure... Ce sera pour demain! J'en suis au premier exercice, certainement le plus difficile d'ailleurs.
 
 
 
 
-###Module x
+###Module Anglais
 **Objectifs**:
-- 
+- détente devant un épisode anglais sous titres anglais
 
 **compte rendu**:
-- 
+- simple et agréable. Pas tout comprit.
