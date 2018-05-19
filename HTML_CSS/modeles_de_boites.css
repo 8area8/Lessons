@@ -1,0 +1,73 @@
+p
+{
+    width: 50%; /* height possible aussi! */
+}
+
+p
+{
+    width: 50%;
+    min-width: 400px; /* min et max pour largeur minimal/maximal */
+}
+
+
+
+p
+{
+   width: 350px;
+   border: 1px solid black;
+   text-align: justify;
+   padding: 12px; /* marge intérieur de 12 px */
+   margin: 50px; /* Marge extérieure de 50px */
+}
+
+/*
+margin-top: marge extérieure en haut ;
+margin-bottom: marge extérieure en bas ;
+margin-left: marge extérieure à gauche ;
+margin-right: marge extérieure à droite.
+
+
+padding-top: marge intérieure en haut ;
+padding-bottom: marge intérieure en bas ;
+padding-left: marge intérieure à gauche ;
+padding-right: marge intérieure à droite.
+
+margin: 2px 0 3px 1px; <- notation condenscé (haut, droite, bas, gauche.)
+*/
+
+
+
+
+p
+{
+    width: 350px; /* On a indiqué une largeur (obligatoire) */
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    border: 1px solid black;
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+
+
+p
+{
+    width: 250px;
+    height: 110px;
+    text-align: justify;
+    border: 1px solid black;
+    overflow: auto;
+}
+/*
+visible(par défaut) : si le texte dépasse les limites de taille, il reste visible et sort volontairement du bloc.
+hidden: si le texte dépasse les limites, il sera tout simplement coupé. On ne pourra pas voir tout le texte.
+scroll: là encore, le texte sera coupé s'il dépasse les limites. Sauf que cette fois, le navigateur mettra en place des barres de défilement pour qu'on puisse lire l'ensemble du texte. C'est un peu comme 	un cadre à l'intérieur de la page.
+auto: c'est le mode « pilote automatique ». En gros, c'est le navigateur qui décide de mettre ou non des barres de défilement (il n'en mettra que si c'est nécessaire). C'est la valeur que je conseille 		d'utiliser le plus souvent.
+*/
+
+
+p
+{
+    word-wrap: break-word;
+}
+/* évite q'un mot trop long ne dépasse son bloc en largeur */

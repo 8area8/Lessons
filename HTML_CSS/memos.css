@@ -1,0 +1,201 @@
+balise1
+{
+    propriete1: valeur1;
+    propriete2: valeur2;
+    propriete3: valeur3;
+}
+
+balise2, balise 3, ...
+{
+    propriete1: valeur1;
+    propriete2: valeur2;
+    propriete3: valeur3;
+    propriete4: valeur4;
+}
+
+balise3
+{
+    propriete1: valeur1;
+}
+
+
+/* commentaire css
+
+peut être écrit sur plusieurs lignes.
+*/
+
+
+.introduction
+{
+    color: blue;
+}
+/* utilise un attribut de classe pour définir un style. */
+
+#logo
+{
+    /* même chose avec un attribut id */
+}
+
+
+
+- LES BALISES UTILISABLES
+
+
+* : selecteur universel (comprend toutes les balises)
+h3 em : toutes les balises em situés dans h3.
+h3 + p : balise situé après l'autre.
+a[title] : les liens qui possèdent attribut [title].
+a[title="Cliquez ici"] : même chose mais avec la valeur exact.
+a[title*="ici"] : doit contenir 'ici' dans sa valeur.
+
+
+
+- TAILLES DE TEXTE
+
+
+font-size: 16px; /* taille absolue. peut être en px, cm ou mm. */
+
+/* taille relative: */
+xx-small: minuscule ;
+x-small: très petit ;
+small: petit ;
+medium: moyen ;
+large: grand ;
+x-large: très grand ;
+xx-large: euh… gigantesque.
+
+/* tailles relatives bis */
+1em
+0.5em
+1.5em
+
+
+
+- POLICE
+
+
+balise
+{
+    font-family: police1, police2, police3, police4; /* première police, puis polices de remplacement si l'internaute ne l'a pas. */
+}
+
+/* polices par défaut */
+Arial ;
+Arial Black ;
+Comic Sans MS ;
+Courier New ;
+Georgia ;
+Impact ;
+Times New Roman ;
+Trebuchet MS ;
+Verdana.
+
+
+.ttf: TrueType Font. Fonctionne sur IE9 et tous les autres navigateurs.
+.eot: Embedded OpenType. Fonctionne sur Internet Explorer uniquement, toutes versions. Ce format est propriétaire, produit par Microsoft.
+.otf: OpenType Font. Ne fonctionne pas sur Internet Explorer.
+.svg: SVG Font. Le seul format reconnu sur les iPhones et iPads pour le moment.
+.woff: Web Open Font Format. Nouveau format conçu pour le Web, qui fonctionne sur IE9 et tous les autres navigateurs.
+
+/* Définir une nouvelle police(chemin relatif au dossier) */
+@font-face {
+    font-family: 'MaSuperPolice';
+    src: url('MaSuperPolice.eot') format('eot'),
+         url('MaSuperPolice.woff') format('woff'),
+         url('MaSuperPolice.ttf') format('truetype'),
+         url('MaSuperPolice.svg') format('svg');
+}
+
+
+
+- DEFINIR LE TEXTE
+
+
+em
+{
+    font-style: normal;
+}
+/* sont possibles:
+- italic
+- oblique
+- normal
+*/
+
+h1
+{
+    font-weight: bold;
+}
+/* sont possibles:
+-bold
+normal
+*/
+
+
+/* nouveau mot clé: text-decoration */
+h1
+{
+    text-decoration: blink;
+}
+.souligne
+{
+    text-decoration: underline;
+}
+.barre
+{
+    text-decoration: line-through;
+}
+.ligne_dessus
+{
+    text-decoration: overline;
+}
+
+
+
+- L'ALIGNEMENT
+
+/*
+left: le texte sera aligné à gauche (c'est le réglage par défaut).
+
+center: le texte sera centré.
+
+right: le texte sera aligné à droite.
+
+justify: le texte sera « justifié ».
+	Justifier le texte permet de faire en sorte qu'il prenne toute la largeur possible 
+	sans laisser d'espace blanc à la fin des lignes. Les textes des journaux, par exemple, sont toujours justifiés.
+*/
+h1
+{
+    text-align: center;
+}
+
+p
+{
+    text-align: justify;
+}
+
+.signature
+{
+    text-align: right;
+}
+
+
+
+- Image flottante
+
+
+.imageflottante
+{
+    float: left;
+}
+/* ou right */
+
+.dessous
+{
+    clear: both;
+}
+/* On force le texte à être écrit en dessous d'une image flottante.
+left et right possibles pour les images flottantes à gauche et à droite. */
+
+
+

@@ -1,0 +1,84 @@
+p
+{
+    color: #FFFFFF;
+}
+
+p
+{
+    color: rgb(240,96,204);
+}
+
+/* On travaille sur la balise body, donc sur TOUTE la page */
+body
+{
+    background-color: black; /* Le fond de la page sera noir */
+    color: white; /* Le texte de la page sera blanc */
+}
+
+
+
+- MODIFIER LE FOND AVEC UN IMAGE
+
+
+body
+{
+    background-image: url("neige.png"); /* image de fond. On peut utiliser couleur/image de fond pour tout, y compris des mots ou des titres. */
+}
+
+body
+{
+    background-image: url("neige.png");
+    background-attachment: fixed; /* Le fond restera fixe. scroll est la valeur par défaut */
+}
+
+body
+{
+    background-image: url("soleil.png");
+    background-repeat: no-repeat;
+}
+/*
+no-repeat: le fond ne sera pas répété. L'image sera donc unique sur la page.
+repeat-x: le fond sera répété uniquement sur la première ligne, horizontalement.
+repeat-y: le fond sera répété uniquement sur la première colonne, verticalement.
+repeat: le fond sera répété en mosaïque (par défaut).
+*/
+
+body
+{
+    background-image: url("soleil.png");
+    background-attachment: fixed; /* Le fond restera fixe */
+    background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    background-position: top right; /* Le fond sera placé en haut à droite */
+}
+body
+{
+    background: url("soleil.png") fixed no-repeat top right; /* Ceci est une super propriété */
+}
+
+body
+{
+    background: url("soleil.png") fixed no-repeat top right, url("neige.png") fixed; /* plusieurs images de fond */
+}
+
+
+
+- LA TRANSPARENCE
+
+
+body
+{
+    background: url('neige.png');
+}
+
+p
+{
+    background-color: black;
+    color: white;
+    opacity: 0.3;
+}
+
+p
+{
+    background-color: rgb(255,0,0); /* Pour les navigateurs anciens */
+    background-color: rgba(255,0,0,0.5); /* Pour les navigateurs plus récents */
+}

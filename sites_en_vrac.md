@@ -32,3 +32,6 @@ https://hashnode.com/post/starting-programming-need-help-ciibz8fk401cnj3xthhol4r
 
 https://stackshare.io/news
 - stackshare -> outil de veille technologique
+
+https://www.creativejuiz.fr/blog
+- tuto HTML/CSS

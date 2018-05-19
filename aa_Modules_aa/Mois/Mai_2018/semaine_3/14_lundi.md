@@ -15,14 +15,14 @@
 ...
 
 **compte rendu**:
--
+- 2 premières activités finies et devoirs corrigés! demain on termine tout!!! :D
 ...
 
 
 
 
 ###Module Anglais
-**Objectifs**:
+**Objectifs**: du fun ouai :)
 - 
 ...
 

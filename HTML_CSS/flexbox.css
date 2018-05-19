@@ -1,0 +1,106 @@
+#conteneur
+{
+    display: flex;
+    flex-direction: column;
+}
+/*
+row : organisés sur une ligne (par défaut)
+column : organisés sur une colonne
+row-reverse : organisés sur une ligne, mais en ordre inversé
+column-reverse : organisés sur une colonne, mais en ordre inversé
+*/
+
+
+#conteneur
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*
+nowrap : pas de retour à la ligne (par défaut)
+wrap : les éléments vont à la ligne lorsqu'il n'y a plus la place
+wrap-reverse : les éléments vont à la ligne lorsqu'il n'y a plus la place en sens inverse
+*/
+
+
+
+#conteneur
+{
+    display: flex;
+    justify-content: space-around;
+}
+/*
+flex-start : alignés au début (par défaut)
+flex-end : alignés à la fin
+center : alignés au centre
+space-between : les éléments sont étirés sur tout l'axe (il y a de l'espace entre eux)
+space-around : idem, les éléments sont étirés sur tout l'axe, mais ils laissent aussi de l'espace sur les extrémités
+*/
+
+
+#conteneur
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+stretch : les éléments sont étirés sur tout l'axe (valeur par défaut)
+flex-start : alignés au début
+flex-end : alignés à la fin
+center : alignés au centre
+baseline : alignés sur la ligne de base (semblable à flex-start)
+*/
+
+
+
+
+#conteneur
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.element:nth-child(2) /* On prend le deuxième bloc élément */
+{
+    background-color: blue;
+    align-self: flex-end; /* Seul ce bloc sera aligné à la fin */
+}
+
+/* ... */
+
+
+
+.element:nth-child(1)
+{
+    order: 3;
+}
+.element:nth-child(2)
+{
+    order: 1;
+}
+.element:nth-child(3)
+{
+    order: 2;
+}
+/* trier les élements */
+
+
+
+.element:nth-child(1)
+{
+    flex: 2;
+}
+.element:nth-child(2)
+{
+    flex: 1;
+}
+/* crée des ordres de grandeur permettant un  "grossissage" de l'élément par rapport aux autres. */
+
+
+/*
+https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/la-mise-en-page-avec-flexbox#/id/r-3298712
+- répartir sur x lignes
+*/

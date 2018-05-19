@@ -1,0 +1,35 @@
+h1
+{
+    border: 3px blue dashed; /* super propriété */
+}
+/*
+none: pas de bordure (par défaut) ;
+solid: un trait simple ;
+dotted: pointillés ;
+dashed: tirets ;
+double: bordure double ;
+groove: en relief ;
+ridge: autre effet relief ;
+inset: effet 3D global enfoncé ;
+outset: effet 3D global surélevé.
+*/
+
+
+p
+{
+    border-radius: 10px;
+}
+
+p
+{
+    border-radius: 20px / 10px;
+}
+/* bordures arrondies */
+
+
+
+p
+{
+    box-shadow: 6px 6px 6px black; /* décalage gauche, droite et adoucicement du dégradé. */
+}
+/* ombres */
