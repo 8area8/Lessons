@@ -35,3 +35,12 @@ https://stackshare.io/news
 
 https://www.creativejuiz.fr/blog
 - tuto HTML/CSS
+
+http://www.colourlovers.com/palette/694737/Thought_Provoking
+- color palette.
+
+http://blog.xebia.fr/2011/07/18/les-principes-solid/
+- SOLID, la definition. :)
+
+https://feedly.com/i/discover
+- Centralisation de données (outil de veille technologique).
