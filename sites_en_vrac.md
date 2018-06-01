@@ -44,3 +44,15 @@ http://blog.xebia.fr/2011/07/18/les-principes-solid/
 
 https://feedly.com/i/discover
 - Centralisation de données (outil de veille technologique).
+
+http://eloquentjavascript.net/
+- cours JS en livre gratuit en ligne.
+https://github.com/getify/You-Dont-Know-JS
+- same
+https://slides.com/concise/js#/1
+- same
+http://www.pearltrees.com/t/javascript/id13385349#l634
+- ressources JS
+
+https://api.jquery.com/
+-JQuery documentation.
