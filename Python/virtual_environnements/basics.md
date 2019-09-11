@@ -1,27 +1,26 @@
-UTILISER VIRTUALENVWRAPPER
-==============
+# UTILISER VIRTUALENVWRAPPER
 
-[VENV official documentation](https://docs.python.org/3/library/venv.html)
+[VENV official documentation](https://docs.python.org/3/library/venv.html) -
 [VIRTUALENVWRAPPER tutorial](https://makina-corpus.com/blog/metier/2015/bien-configurer-son-environnement-de-developpement-python)
 
 
 In fact, i don't use *VENV* and *VIRTUALENV*, i directly use *VIRTUALENVWRAPPER*.
 
-#1 USING VENV
+## 1 USING VENV
 
 On **GitBash SHELL**:
 ```python -m venv pathname```
 Launch the gitbash to the the target repertory _(programmation/python/venv/)_
 
 
-#2 VIRTUALENV AND SPECIFIC PYTHON VERSION
+## 2 VIRTUALENV AND SPECIFIC PYTHON VERSION
 
 - create the new env with **virtualenv** package.
 - next use the *-p* argument with the needed path to exec python.
 ```virtualenv project-py2 -p /c/Python27/python.exe```
 
 
-#3 List and install packages
+## 3 List and install packages
 
 > list all packages
 
@@ -31,20 +30,20 @@ Django==1.8.5
 gunicorn==19.4.1
 ```
 
-##3.1 Save the content
+### 3.1 Save the content
 ```
 pip freeze > requirements.txt
 ```
 
-##3.2 Install all package from requirements.txt
+### 3.2 Install all package from requirements.txt
 ```
 pip install -r requirements.txt
 ```
 
 
-#4 USING VIRTUALENVWRAPPER
+## 4 USING VIRTUALENVWRAPPER
 
-##4.1 INSTALL VIRTUALENVWRAPPER
+### 4.1 INSTALL VIRTUALENVWRAPPER
 
 1. Install virtualenv and virtualenvwrapper with *pip*.
 
@@ -70,7 +69,7 @@ source  ~/AppData/Local/Programs/Python/Python36-32/Scripts/virtualenvwrapper.sh
 
 >The ```virtualenvwrapper.sh``` is in the Scripts directory from your python's path folder.
 
-##4.2 COMMANDS
+### 4.2 COMMANDS
 
 **Création d'un premier environnement:**
 mkvirtualenv project1
@@ -105,7 +104,7 @@ project2
 (project2) deactivate
 rmvirtualenv project2
 
-###4.2.1 Actually there is a problem
+#### 4.2.1 Actually there is a problem
 
 I cannot easily link a virtualenv to a project because the *setvirtualenvproject* command double the *C:\\* root in the specified pyproject path.
 

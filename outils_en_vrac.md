@@ -1,4 +1,4 @@
-#OUTILS EN VRAC
+# OUTILS EN VRAC
 
 Organisation:
 - Deux groupes dans chaque partie.
@@ -7,18 +7,18 @@ Organisation:
 - l'autre pour les outils annexes (*en italique*).
 
 
-##UML
+## UML
 
 - *UMLet*: éditeur UML gratuit, simple et intuitif; fonctions de bases.
 - *StarUML*: éditeur UML gratuit, puissant mais peu intuitif: pas encore appris.
 
-##SQL
+## SQL
 
 - **MySQL**: SGBDR permettant de manipuler le langage; serveur local.
 
 - *MySQL Workbench*: UI/modéliseur MySQL gratuit, puissant et intuitif: je ne sais pas encore modéliser dessus.
 
-##Python
+## Python
 
 - **Python 3.6**: dernière version de python.
 - **Python 2.7**: dernière version 2.x de python.
@@ -29,11 +29,11 @@ Organisation:
 - *virtualenv et virtualenvWRAPPER*: outils simplifiant grandement la mise en place d'environnements virtuels. Se référer au cours.
 - *pytest*: trop utile, une librairie simple et complète pour débugger.
 
-##Regex
+## Regex
 
 - *générateur de regex (https://regexr.com/3oj0h)*: gratuit, complet et intuitif.
 
-##GIT
+## GIT
 
 - **Git for Windows**: Git pour Windows, donné avec le SHELL Bash qui me sert actuellement.
 - **GitHub**: Le site qui communique avec Git, par défaut.
@@ -41,20 +41,20 @@ Organisation:
 - *GitLab*: Second site qui héberge les projets privés sans frais.
 - *GitHub Desktop*: version bureau de GitHub, qui communique avec le site. UI intéressante.
 
-##IDE
+## IDE
 
 - **Sublime Text 3**: IDE gratuit, puissant et élégant.
 
-##SHELL
+## SHELL
 
 - **Git for Windows**: SHELL qui me sert actuellement. Utilise les mots clés LINUX.
 
 - *cmder*: émulateur de console, pratique et élégant. Peut bugger (erreurs d'installation de librairies python)
 
-##Méthodes Agiles
+## Méthodes Agiles
 
 - *Trello*: Interface gratuite et simple pour communiquer avec une équipe.
 
-##HTML
+## HTML
 
 - *Can I use* (https://caniuse.com/): gratuit, permet de tester les navigateurs selon les fonctionnalités HTML.
